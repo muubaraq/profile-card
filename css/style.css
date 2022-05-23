@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kumbh+Sans:wght@700&family=Lexend+Deca&display=swap');
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/bg-pattern-top.svg")  top, url("/images/bg-pattern-bottom.svg") bottom;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  flex-direction: column;
+ 
+  
+}
+
+.card {
+  border-radius:10px !important;
+}
+
+.img-section {
+  background: url("/images/bg-pattern-card.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+  padding: 90px 0 55px 0;
+}
+
+img {
+  border-radius: 100%;
+  border: 2px solid #fff;
+  position: absolute;
+  right: 35%;
+
+}
+
+  h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+  h3, p {
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+
+@media screen and (max-width: 770px) {
+  img {
+    right: 32% !important;
+  }
+}
+  
+
+@media screen and (max-width: 700px) {
+  img {
+    right: 29% !important;
+  }
+}
