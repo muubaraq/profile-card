@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../images/bg-pattern-top.svg")  top, url("../images/bg-pattern-bottom.svg") bottom;
+  background: url("/images/bg-pattern-top.svg")  top, url("/images/bg-pattern-bottom.svg") bottom;
   background-size:cover ;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 }
 
 .img-section {
-  background: url("../images/bg-pattern-card.svg");
+  background: url("/images/bg-pattern-card.svg");
   background-size: cover;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
