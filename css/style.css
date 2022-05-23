@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("images/bg-pattern-top.svg")  top, url("images/bg-pattern-bottom.svg") bottom;
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1653318470/bg-pattern-top_l6pa6u.svg")  top, url("https://res.cloudinary.com/muuba/image/upload/v1653318470/bg-pattern-top_l6pa6u.svg") bottom;
   background-size:cover ;
   background-repeat: no-repeat;
   flex-direction: column;
@@ -19,7 +19,7 @@ body {
 }
 
 .img-section {
-  background: url("images/bg-pattern-card.svg");
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1653318446/bg-pattern-card_rvtoiq.svg");
   background-size: cover;
   background-repeat: no-repeat;
   border-top-left-radius: 10px;
