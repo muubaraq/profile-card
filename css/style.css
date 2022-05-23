@@ -6,8 +6,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(17, 212, 212);
+  background:url("https://res.cloudinary.com/muuba/image/upload/v1653318470/bg-pattern-top_l6pa6u.svg") top center, url("https://res.cloudinary.com/muuba/image/upload/v1653318483/bg-pattern-bottom_fchdhk.svg") bottom center;
   background-repeat: no-repeat;
+  background-size: cover;
   flex-direction: column;
  
   
@@ -18,7 +19,7 @@ body {
 }
 
 .img-section {
-  background: rgb(10, 122, 126);
+  background: url("https://res.cloudinary.com/muuba/image/upload/v1653318446/bg-pattern-card_rvtoiq.svg") no-repeat;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   position: relative;
