@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:url("https://res.cloudinary.com/muuba/image/upload/v1653318470/bg-pattern-top_l6pa6u.svg") top center, url("https://res.cloudinary.com/muuba/image/upload/v1653318483/bg-pattern-bottom_fchdhk.svg") bottom center;
+  background:url("https://res.cloudinary.com/muuba/image/upload/v1653318470/bg-pattern-top_l6pa6u.svg") top left, url("https://res.cloudinary.com/muuba/image/upload/v1653318483/bg-pattern-bottom_fchdhk.svg") bottom right;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
